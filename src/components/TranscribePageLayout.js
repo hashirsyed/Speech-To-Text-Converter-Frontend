@@ -131,7 +131,7 @@ const handleAudio = (file) => {
             </div>
           </Group>
         </Dropzone>
-        <Button onClick={handleClick}>Transcribe</Button>
+        <Button onClick={handleClick} mt={"lg"}>Transcribe</Button>
         {response ||isPending === true ? (
           <Paper withBorder p="md" radius="md" mt="md" w={"90%"}>
             {isPending ? (
